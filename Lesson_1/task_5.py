@@ -6,7 +6,7 @@ profit = revenue - costs
 
 if revenue < costs:
     print(f"Ваши убытки составляют: {loss} руб.")
-elif revenue > costs:
+else:
     profitability = (profit/revenue)*100
     print(f"Ваша прибыль сотавляет: {profit} руб.")
     print(f"Рентабельность предприятия:  {profitability} %")

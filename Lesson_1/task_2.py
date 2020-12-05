@@ -4,4 +4,4 @@ hours = user_sec // 60**2
 minutes = (user_sec % 60**2) // 60
 seconds = (user_sec % 60**2) % 60
 
-print(f"{hours}: {minutes}: {seconds}")
+print(f"{hours:02d}: {minutes}: {seconds}")
